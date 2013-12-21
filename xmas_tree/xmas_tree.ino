@@ -1,6 +1,8 @@
 /*
  * Arduino Christmas Tree - Arduino-powered Christmas tree.
  *
+ * The proximity sensor is used to set the rate of the blinking LEDs.
+ *
  * Copyright (c) 2013 Davide Alberani <da@erlug.linux.it>
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy 
