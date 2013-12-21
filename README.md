@@ -6,16 +6,17 @@ my 3D-printed christmas tree.
 It's shy, so when someone gets closer, he starts blinking faster.
 
 
-Electronic
-----------
+Electronic and hardware
+-----------------------
 
 Some LEDs, resistors and a proximity sensor.
-
 
 The xmas\_tree.fzz file contains the Fritzing circuit diagram; for
 the proximity sensor I've used a Sharp GP2Y0A02YK0F; you
 may use whatever you have, but you'll probably need to fix
 some values in the code.
+
+My christmas tree is a slightly customized version of http://www.thingiverse.com/thing:186164 printed with a 3Drag.
 
 Software
 --------
