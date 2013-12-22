@@ -53,7 +53,7 @@ bool flip() {
 /** Check the distance from the sensor and modify the divider accordingly. */
 void checkDistance() {
   int distance = analogRead(DISTANCE_PIN);
-  DIVIDER = map(distance, 30, 600, 1, 20);
+  DIVIDER = map(distance, 30, 600, 1, 25);
   if (DIVIDER < 1) {
     DIVIDER = 1;
   }
